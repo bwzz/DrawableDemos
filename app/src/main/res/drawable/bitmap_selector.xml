@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+          android:src="@drawable/android">
+    <item android:state_pressed="true">
+        <bitmap android:src="@drawable/android" android:tint="@color/colorAccent"/>
+    </item>
+
+    <item>
+        <bitmap android:src="@drawable/android" android:tint="@color/colorPrimary"/>
+    </item>
+</selector>

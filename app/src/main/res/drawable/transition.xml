@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition xmlns:android="http://schemas.android.com/apk/res/android"
+            android:autoMirrored="true"
+            android:paddingMode="nest"
+            android:paddingTop="1000dp">
+    <item android:drawable="@drawable/android"/>
+    <item android:drawable="@drawable/shape_ring"/>
+</transition>

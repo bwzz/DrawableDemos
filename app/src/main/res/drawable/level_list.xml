@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:maxLevel="0"
+        android:minLevel="0">
+        <bitmap android:src="@drawable/android"/>
+    </item>
+    <item
+        android:drawable="@drawable/layer_android"
+        android:maxLevel="1"
+        android:minLevel="1">
+    </item>
+    <item
+        android:drawable="@drawable/layer_ape"
+        android:maxLevel="2"
+        android:minLevel="2"/>
+    <item
+        android:drawable="@drawable/shape_ring"
+        android:maxLevel="20"
+        android:minLevel="3"/>
+</level-list>

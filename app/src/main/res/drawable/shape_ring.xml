@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:innerRadiusRatio="3"
+       android:shape="ring"
+       android:thicknessRatio="6"
+       android:useLevel="false">
+    <!--必须为 false-->
+    <stroke
+        android:width="3dp"
+        android:color="@color/colorPrimaryDark"/>
+
+    <solid android:color="@color/colorPrimary"/>
+
+    <gradient
+        android:endColor="@color/colorAccent"
+        android:startColor="@color/colorPrimary"
+        android:type="sweep"/>
+
+    <padding
+        android:left="300dp"/>
+</shape>
